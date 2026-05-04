@@ -73,7 +73,8 @@ of decreasing frequency:
 * single level unordered loose lists [2]
 * single level unordered tight lists
 * indented code blocks
-* underline (N.B. not a Markdown-feature)
+* underline (N.B. not a Markdown-feature) - [no longer
+  supported](https://github.com/janet-lang/janet/pull/1597)
 
 Note that not all supported features are in use, e.g. ordered
 lists do have some level of support but no built-in Janet docstring
