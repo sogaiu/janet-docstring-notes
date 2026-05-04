@@ -70,9 +70,9 @@ of decreasing frequency:
   * top-level
   * in list items within unordered lists
 * code spans
+* single level unordered loose lists [2]
 * single level unordered tight lists
 * indented code blocks
-* single level loose lists [2]
 * underline (N.B. not a Markdown-feature)
 
 Note that not all supported features are in use, e.g. ordered
@@ -116,8 +116,10 @@ this is reflected in the differences between the two lists above.
 
 ## Observations
 
+### Use of Unsupported Features
+
 It appears that some folks have taken to using some features that are
-not supported in Janet docstrings of Markdown / CommonMarks.  This may
+not supported in Janet docstrings of Markdown / CommonMark.  This may
 be for various reasons likely not limited to:
 
 * Unclear exactly what is suppported
@@ -135,6 +137,8 @@ One conclusion might be that it's better to be clear upfront about
 what features are supported with a clear warning as to potential
 consequences of straying from what's supported.
 
+### Regarding the Addition of Features
+
 Also, if docstrings are ever to support more features, it seems like
 the existing features of Markdown / CommonMark constrain what can be
 done reasonably.  Possibly one of the less problematic paths is to
@@ -146,6 +150,8 @@ to work smoothly with existing features.
 
 From a maintenance perspective, given how complex Markdown /
 CommonMark is though, it may be best to not add any more features.
+
+### Sufficiency Note
 
 At least for the docstrings of Janet itself, `doc-format` seems to be
 doing a pretty good job.
