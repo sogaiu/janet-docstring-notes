@@ -74,6 +74,9 @@ the corresponding handling occurs.
 * emphasis: `:italics`
 * strong emphasis: `:bold`
 
+Note: the terminology used to name the features above was taken from
+the [CommonMark spec](https://spec.commonmark.org/).
+
 ## Docstrings in Various Projects
 
 ### In Janet Itself
