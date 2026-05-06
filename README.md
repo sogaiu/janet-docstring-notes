@@ -58,6 +58,22 @@ probably give a sense of what features people may have thought were
 supported.  Note that this isn't necessarily the same as what is
 supported [2].
 
+## What Does `doc-format` Support?
+
+The following is a list of features with some degree of support in
+`doc-format`.  Each item has one or more constructs one can search for
+in `doc-format`'s source to get a feel for where in the code some of
+the corresponding handling occurs.
+
+* paragraphs: `p-start`, `p-end`, `p-line`, etc.
+* code spans: `:code`
+* bullet lists: `ul?`, `parse-list`, `:ul`
+* ordered list: `ol?`, `parse-list`, `:ol`
+* fenced codeblocks: `fcb?`, `parse-fcb`, `add-codeblock`, `:cb`
+* indented codeblocks: `parse-icb`, `add-codeblock`, `:cb`
+* emphasis: `:italics`
+* strong emphasis: `:bold`
+
 ## Docstrings in Various Projects
 
 ### In Janet Itself
