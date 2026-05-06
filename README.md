@@ -67,7 +67,7 @@ the corresponding handling occurs.
 
 * paragraphs: `p-start`, `p-end`, `p-line`, etc.
 * code spans: `:code`
-* bullet lists: `ul?`, `parse-list`, `:ul`
+* unordered lists: `ul?`, `parse-list`, `:ul`
 * ordered list: `ol?`, `parse-list`, `:ol`
 * fenced codeblocks: `fcb?`, `parse-fcb`, `add-codeblock`, `:cb`
 * indented codeblocks: `parse-icb`, `add-codeblock`, `:cb`
@@ -75,7 +75,9 @@ the corresponding handling occurs.
 * strong emphasis: `:bold`
 
 Note: the terminology used to name the features above was taken from
-the [CommonMark spec](https://spec.commonmark.org/).
+the [CommonMark spec](https://spec.commonmark.org/) with the exception
+of "unordered list" (which is referred to in the CommonMark spec as
+"bullet list").
 
 ## Docstrings in Various Projects
 
