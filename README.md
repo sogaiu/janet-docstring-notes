@@ -94,7 +94,9 @@ of decreasing frequency:
 
 Note that not all supported features are in use, e.g. fenced code
 blocks and ordered lists do have some level of support but no built-in
-Janet docstring uses them at the time of this writing.
+Janet docstring uses them at the time of this writing.  However, 3rd
+party projects do use some of the features unused by Janet itself.
+See below for some details.
 
 "Detection" was performed by manual inspection.
 
