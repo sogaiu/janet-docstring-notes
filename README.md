@@ -79,6 +79,35 @@ the [CommonMark spec](https://spec.commonmark.org/) with the exception
 of "unordered list" (which is referred to in the CommonMark spec as
 "bullet list").
 
+## Useful Subsets of Features
+
+In some cases, one may decide to consciously use a subset of the
+supported features.  Below are some potentially useful subsets:
+
+0. No docstrings - possibly an overlooked option is to not have
+   docstrings within one's source code.  There are actually multiple
+   versions of this option and a few will be spelled out below:
+
+   * No prose documentation within source code at all - although this
+     might be seen as unuseful, it actually includes the idea of
+     having documentation that lives outside of the source code.
+     Also, just having illustrative examples within the source (or in
+     tests) might also fall under this idea.
+
+   * Put documentation directly above "things to be documented" - this
+     can be done in a variety of ways including via line comments as
+     well as just using top-level long-strings.
+
+1. Paragraphs only - this option is fairly straight-forward and still
+   might be considered quite useful.
+
+2. Paragraphs and code spans only - this is a variation on the
+   previous option with the ability to make certain terms standout a
+   bit more clearly.
+
+There may be other useful subsets as well that eventually get
+documented here.
+
 ## Docstrings in Various Projects
 
 ### In Janet Itself
